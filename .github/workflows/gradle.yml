@@ -33,7 +33,5 @@ jobs:
       uses: gradle/gradle-build-action@bd5760595778326ba7f1441bcf7e88b49de61a25 # v2.6.0
       with:
         arguments: build
-    - name: Set execute permissions for Gradle script
-        run: chmod +x ./parcialPrimerCorte_pruebas/gradlew
-      - name: Run Gradle build
-        run: ./parcialPrimerCorte_pruebas/gradlew build
+    - name: Ejecucion de permisos
+      run: chmod +x ./gradlew
