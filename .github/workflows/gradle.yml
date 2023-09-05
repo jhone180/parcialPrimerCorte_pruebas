@@ -34,5 +34,5 @@ jobs:
       with:
         arguments: build
     - name: Ejecucion de permisos
-      run: chmod +x gradlew
+      run: chmod +x ./gradlew
       
